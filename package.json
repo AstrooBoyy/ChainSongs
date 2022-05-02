@@ -1,0 +1,56 @@
+{
+  "name": "chainsongs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "@material-ui/lab": "^3.0.0-alpha.30",
+    "connected-react-router": "^6.3.1",
+    "drizzle": "^1.3.3",
+    "drizzle-react": "^1.2.0",
+    "drizzle-react-components": "^1.4.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.10.0",
+    "firebase": "^5.8.4",
+    "mocha": "^6.0.2",
+    "react": "^16.8.3",
+    "react-card-flip": "^0.5.0",
+    "react-dom": "^16.8.3",
+    "react-infinite-scroller": "^1.2.4",
+    "react-localize-redux": "^3.5.2",
+    "react-redux": "^6.0.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.8",
+    "react-slick": "^0.23.2",
+    "redux": "^4.0.1",
+    "redux-firestore": "^0.7.0",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "slick-carousel": "^1.8.1",
+    "truffle": "^5.0.6",
+    "web3": "^1.0.0-beta.47"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": " nyc react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "nyc": "^13.3.0",
+    "react-redux-firebase": "^2.2.6"
+  }
+}
